@@ -1,62 +1,92 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello_Microverse
 
-> Description the project.
+![](./hello.png)
 
+In this project, I set up a "Hello world" repository. Basic coding is required for this exercise. 
+The goal here is to master all of the tools and best practices I learned about in previous steps.
+I will use these skills in all Microverse projects and most likely in my future job as well, so it is important to know them!
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
-## Live Demo (if available)
+## Additional Tools
 
-[Live Demo Link](https://livedemo.com)
+- WebHint
+- Stylelint
+- Node Packet Manager
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running:
+To get a local copy of this project on your local machine up and running follow the steps below.
 
 ### Prerequisites
 
+- Basic html, css and medium Javascript know how.
+- Git installation
+- A text editor 
+- A terminal
+- A web browser to view output
+- An IDE e.g Visual studio code
+
 ### Setup
 
-### Install
+- Clone this repository or download the Zip folder:
+
+
+for https:
+```
+    git clone https://github.com/lukman155/HelloMicroverse.git
+```
+for ssh:
+```
+    git clone git@github.com:lukman155/HelloMicroverse.git
+
+```
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd <folder>``**
 
 ### Usage
 
-### Run tests
+- After Cloning this repo to your local machine
+- Open the `index.html` in your browser
 
-### Deployment
+### Run Tests
+To track linter errors locally follow these steps:  
 
-
+Download all the dependencies run:
+```
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lukman155](https://github.com/lukman155)
+- Twitter: [@LukmanAbdulka18](https://twitter.com/LukmanAbdulka18)
+- LinkedIn: [Lukman Abdulkarim](https://linkedin.com/in/lukmanbaba)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/lukman155/HelloMicroverse/issues).
 
 ## Show your support
 
@@ -64,12 +94,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedback.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
